@@ -1,0 +1,13 @@
+myconfig:
+  config:
+    workspace: FrodoTest.xcworkspace
+    scheme: FrodoTest
+    sdk: iphonesimulator7.1
+
+mytest:
+  test:
+    target: FrodoTestTests
+    config: myconfig
+
+frodo:
+  working_dir: FrodoTest
