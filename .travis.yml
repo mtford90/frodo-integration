@@ -4,6 +4,6 @@ before_install:
   - brew install libyaml
   - sudo pip install -r ./requirements.txt
   - sudo pip install nose
-  - sudo gem install pods
+  - sudo gem install cocoapods
   - "cd FrodoTest && pod install"
 script: ./test.sh
