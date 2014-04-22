@@ -5,5 +5,7 @@ before_install:
   - sudo pip install -r ./requirements.txt
   - sudo pip install nose
   - sudo gem install cocoapods
-  - "cd FrodoTest && pod install"
+  - "cd FrodoTest && pod install && cd -"
+before_script:
+  - export LANG=en_US.UTF-8
 script: ./test.sh
