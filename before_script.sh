@@ -1,7 +1,0 @@
-#!/bin/sh
-set -e
-
-
-
-sudo pip install -r requirements.txt
-
