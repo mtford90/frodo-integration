@@ -1,5 +1,6 @@
 language: objective-c
 before_install: 
   - sudo easy_install pip
+  - brew install libyaml
 before_script: ./before_script.sh
 script: ./test.sh
